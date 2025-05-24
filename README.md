@@ -32,5 +32,19 @@ run_with_limits(
 )
 ```
 
+## How to Test
+To run the test suite using `pytest`:
+1. Install development dependencies:
+```bash
+pip install -r requirements.txt
+pip install pytest
+```
+2. Run the tests
+```bash
+pytest
+```
+
+
+
 ## License
 MIT
